@@ -1,0 +1,15 @@
+
+public class helloworld {
+	public static void main(String[] args)
+	{
+		System.out.println("Hello");
+		System.out.print("Hello");
+		int i=0,j,k;
+		for(i=3;i<100;i++)
+			for(j=3;j<100;j++)
+				for(k=3;k<100;k++)
+					if(i*i+j*j==k*k)
+						System.out.print(i+" "+j+" "+k+";\n");
+	}
+
+}
